@@ -1,0 +1,511 @@
+fileFormatVersion: 2
+guid: fd2baa52729d6c949919763c0a84d1a9
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Acera
+    second: {fileID: 2100000, guid: a774f3d6e6da64a4586f82a87624c447, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Agua
+    second: {fileID: 2100000, guid: c42c6552dce9263488d7371f02d1b1aa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Amarillo_Botones
+    second: {fileID: 2100000, guid: a743f7a494c036f41b5d20117f988d6e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Amarillo_Mesa
+    second: {fileID: 2100000, guid: d3e3cee02c22a244b9dde856cc1547b1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Amarillo_cuidado
+    second: {fileID: 2100000, guid: ed032d9fdddb8274ebca3c72523c7549, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Armario_verde
+    second: {fileID: 2100000, guid: 3a65e3c41d784a745be982a4f82047dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Armarios_Verde
+    second: {fileID: 2100000, guid: 9b92b538a4931aa458290b4a9424ec83, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Asfalto
+    second: {fileID: 2100000, guid: 1ebe54466c706824392ece90e2c970e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Azul_Botones
+    second: {fileID: 2100000, guid: 7a10d38f65100d847bbfc710d3bc014e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Azul_Robot
+    second: {fileID: 2100000, guid: 86869bdb183d84d44b29872996e0219c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Botones_Gris
+    second: {fileID: 2100000, guid: e3f84f45f4d95ae4da726fa0f0fa4627, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Botones_Verde
+    second: {fileID: 2100000, guid: 87a1210cc5eaa1c499b31c00d8109325, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cristal
+    second: {fileID: 2100000, guid: da2313a1d1a22f141849e9c1f40b1df6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cristal_Exterior
+    second: {fileID: 2100000, guid: 4fe14d5692c297848a45276fbe312723, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Default_Material
+    second: {fileID: 2100000, guid: 2ab84b728ba8bf14386e9443304b5e7e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Electronica_Verde
+    second: {fileID: 2100000, guid: e463929da02212e47a19c78a20e4cdc6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Exterior_Planet_Express_Logo
+    second: {fileID: 2100000, guid: f985ba119e325ce4d811e56ea358e666, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gris_Claro_Maquina
+    second: {fileID: 2100000, guid: 28b6bcba49db84a40bf253d959410396, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gris_Maquina
+    second: {fileID: 2100000, guid: 02a83715b6a2f8741b618fa53544cdb6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gris_Metal
+    second: {fileID: 2100000, guid: b6c1e5d5ec27b614db2b496212c22fba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ladrillos
+    second: {fileID: 2100000, guid: 2e14eab63d3dbc34ab20771a43d485cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lila_Ordenador_Central
+    second: {fileID: 2100000, guid: 906ee3338a60b0641959583d47a419ca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Logo_Planet_Express
+    second: {fileID: 2100000, guid: 7af249a7dce430342a0578bbbd69385c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Luz
+    second: {fileID: 2100000, guid: 7b1f60ba9a34ed14eb9aa7cf84d24d2e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Luz_holograma
+    second: {fileID: 2100000, guid: 79f222778ff0e714688c207561a1a3d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Marron_Tuberias
+    second: {fileID: 2100000, guid: 5768ca5df9fdcd243ab82f17eb36b975, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Marron_suelo
+    second: {fileID: 2100000, guid: 418508d265fc099458bf937609c944d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Muro_Mar
+    second: {fileID: 2100000, guid: dce31ac50f6fb134195dc7cd496ccfa2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Naranja_Robot
+    second: {fileID: 2100000, guid: e0a96159b4e7e624c9b7abbd33ff3d6b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Negro
+    second: {fileID: 2100000, guid: a9deca110a15eb34aa8c89cd0acc6a30, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Paredes_Base
+    second: {fileID: 2100000, guid: 703655af6dd34d14bab767544214fbad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Paredes_verde
+    second: {fileID: 2100000, guid: 6d6815ee24abeb64c849b951a27055ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Paso_de_cebra
+    second: {fileID: 2100000, guid: b8ad7f790ce3de6418e2cbf7ef9bd861, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Puerta_Base
+    second: {fileID: 2100000, guid: 52d05cb057294024ab137af3636c7811, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Puertas_Verde
+    second: {fileID: 2100000, guid: 03d325e74b3342f4ebea48542ea65afb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Robot_Amarillo
+    second: {fileID: 2100000, guid: 7f8cc72f6d4cc3945998ca1ee58ac85c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rojo_Pantalla
+    second: {fileID: 2100000, guid: 266c8b022de780749905f8d682ee7b8e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rojo_Planet_Express
+    second: {fileID: 2100000, guid: 9524be2b669619144a6824dc04736868, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rojo_botones
+    second: {fileID: 2100000, guid: 106fc437319fc26448fdcf10c8e59939, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SS_Escalones
+    second: {fileID: 2100000, guid: bbcf691d3aea7c7468786acf716ae4c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SS_Marcos
+    second: {fileID: 2100000, guid: bc6573e78b3313a4990d479515cbb730, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SS_Rojo_Cubierta
+    second: {fileID: 2100000, guid: a44997c071ff9684c897fc989a244eaa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SS_Ventanas
+    second: {fileID: 2100000, guid: 56e2a9d96f1132248ba09060cafc5b44, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SS_Verde_Alas
+    second: {fileID: 2100000, guid: 6f027f7c58f339b4a8a82e4ab991c5ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SS_Verde_Cubierta
+    second: {fileID: 2100000, guid: be7a7449c5cfbb44792fb87f5718a169, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SS_Verde_Oscuro_Cubierta
+    second: {fileID: 2100000, guid: fff911a32471d8142a7dba91ea8f36de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Silla_Tripulacion
+    second: {fileID: 2100000, guid: de7c44714bc4da345ae42217a385d99c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Silla_profesor
+    second: {fileID: 2100000, guid: 1ba88cf5782497e469d748057983706d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Slurm_Lata
+    second: {fileID: 2100000, guid: 926b803d626e6454380d1c7ec30da02a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suelo_Base
+    second: {fileID: 2100000, guid: 50cee755991778a4d8e78db33bf81a09, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suelo_laboratorio
+    second: {fileID: 2100000, guid: 28f265bbad3138a4790cab1b2880557f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TV
+    second: {fileID: 2100000, guid: 8fea22ecfacb3b142a7a94cc626c2725, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Taquillas
+    second: {fileID: 2100000, guid: 931a04a11b8ad9d4dab7b17d75ff2821, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Torre_superior
+    second: {fileID: 2100000, guid: 6765336c39e9df04a9049d11abb2fa91, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Turquesa
+    second: {fileID: 2100000, guid: c2c3b0fb9b0cbf24cb81e7f9d8ea46b6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ventanas_Nave
+    second: {fileID: 2100000, guid: 4e1fb5df784bc014d8850de1210fca70, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Verde_Ordenador_Central
+    second: {fileID: 2100000, guid: a2b540211b3baad4599c58479d943ce1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bender_UVTEST5_Cristal_Botella
+    second: {fileID: 2100000, guid: a58176505c7ac0b4285c0c8714e5ef21, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bender_UVTEST5_Cristal_botella
+    second: {fileID: 2100000, guid: 759c15c6f0d0bd645b97e978aa808fb0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bender_UVTEST5_Dorado_botella
+    second: {fileID: 2100000, guid: b768c952b789ba7429de520a421e45ca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bender_UVTEST5_Rojo_botella
+    second: {fileID: 2100000, guid: 4d5bdf3a35efd724490456d91cc4150d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bender_UVTEST5_lambert2
+    second: {fileID: 2100000, guid: 5c88aa13967e58640b7cd3631a8b7383, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bender_UVTEST5_pasted__Cristal_Botella
+    second: {fileID: 2100000, guid: d88bce4e858160f44bfc87907785adef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bender_UVTEST5_pasted__Cristal_botella
+    second: {fileID: 2100000, guid: 1c95a263a15f50240b9b3a4d4409e236, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bender_UVTEST5_pasted__Dorado_botella
+    second: {fileID: 2100000, guid: cf5490f396ad2e346971609ecfbd8d00, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bender_UVTEST5_pasted__Rojo_botella
+    second: {fileID: 2100000, guid: 38941a1a1fa7897428d7f14c4c8077fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bender_UVTEST5_pasted__lambert2
+    second: {fileID: 2100000, guid: 12a14678111aed6468ac61a031818e67, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bender_UVTEST5_pasted__pasted__Cristal_Botella
+    second: {fileID: 2100000, guid: c2166c09316cb15439176263f8f06e90, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bender_UVTEST5_pasted__pasted__Cristal_botella
+    second: {fileID: 2100000, guid: 0400d7f3f7322644894828b13bb5e2dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bender_UVTEST5_pasted__pasted__Dorado_botella
+    second: {fileID: 2100000, guid: f6a3fbd0af4d23d47851322b960ad5da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bender_UVTEST5_pasted__pasted__Rojo_botella
+    second: {fileID: 2100000, guid: 969983f95a1e9a7469e67ae1dabcb3ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bender_UVTEST5_pasted__pasted__pasted__Cristal_Botella
+    second: {fileID: 2100000, guid: 9d4340c5cd53e914482173d076b21952, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bender_UVTEST5_pasted__pasted__pasted__Cristal_botella
+    second: {fileID: 2100000, guid: a04f50fdf1cc7a147a1d71a938727028, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bender_UVTEST5_pasted__pasted__pasted__Dorado_botella
+    second: {fileID: 2100000, guid: 4de050983e7a20848bb586f525bd569d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bender_UVTEST5_pasted__pasted__pasted__Rojo_botella
+    second: {fileID: 2100000, guid: 291304d23ed0a7144bc396313e041ee9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bender_UVTEST5_pasted__pasted__pasted__pasted__Cristal_Botella
+    second: {fileID: 2100000, guid: 2e6a8dc236055434c9714aa9ef64cfb7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bender_UVTEST5_pasted__pasted__pasted__pasted__Cristal_botella
+    second: {fileID: 2100000, guid: 13ff54a6afeff7443ab09496125f5335, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bender_UVTEST5_pasted__pasted__pasted__pasted__Dorado_botella
+    second: {fileID: 2100000, guid: 4332411cd20ff244ba24aad7c25d9c47, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bender_UVTEST5_pasted__pasted__pasted__pasted__Rojo_botella
+    second: {fileID: 2100000, guid: 1220ac7ba1aae084fa60be17e540a2c1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 2d887cac3a4abec4c8a6c38e5ff67461, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__lambert2
+    second: {fileID: 2100000, guid: d555baae34992dc48ace6a184a40d57e, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 10
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 0.099999994
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
