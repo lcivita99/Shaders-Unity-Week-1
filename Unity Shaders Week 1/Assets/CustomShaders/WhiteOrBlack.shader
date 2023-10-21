@@ -84,36 +84,36 @@ Shader "Custom/WhiteOrBlack"
         ENDCG
 
         // Outline attempt
-        Pass
-        {
-            Name "Outline"
-            Blend SrcAlpha OneMinusSrcAlpha
-            CGPROGRAM
-                #pragma vertex vert
-                #pragma fragment frag
-                #include "UnityCG.cginc"
+        //Pass
+        //{
+        //    Name "Outline"
+        //    Blend SrcAlpha OneMinusSrcAlpha
+        //    CGPROGRAM
+        //        #pragma vertex vert
+        //        #pragma fragment frag
+        //        #include "UnityCG.cginc"
  
-                struct v2f {
-                    float4 pos: POSITION;
-                    float4 screenPos: TEXCOORD0;
-                };
+        //        struct v2f {
+        //            float4 pos: POSITION;
+        //            float4 screenPos: TEXCOORD0;
+        //        };
  
-                v2f vert (appdata_full v)
-                {
-                    v2f o;
-                    v.vertex.xyz += v.normal / 35.;
-                    o.pos = UnityObjectToClipPos(v.vertex);   
-                    o.screenPos = ComputeScreenPos(o.pos);
-                    return o;
-                }
+        //        v2f vert (appdata_full v)
+        //        {
+        //            v2f o;
+        //            v.vertex.xyz += v.normal / 35.;
+        //            o.pos = UnityObjectToClipPos(v.vertex);   
+        //            o.screenPos = ComputeScreenPos(o.pos);
+        //            return o;
+        //        }
  
-                float4 frag( v2f i ) : COLOR
-                {
+        //        float4 frag( v2f i ) : COLOR
+        //        {
 
-                    return float4(1., 0., 0., 1.0);
-                }
-            ENDCG          
-        }
+        //            return float4(1., 0., 0., 1.0);
+        //        }
+        //    ENDCG          
+        //}
     }
     FallBack "Diffuse"
 }
