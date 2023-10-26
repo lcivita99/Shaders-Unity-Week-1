@@ -41,6 +41,7 @@ Material:
     - _Glossiness: 0
     - _LineSize: 14.4
     - _Metallic: 0
+    - _OutlineSize: 1
     - _Threshold: 0.697
     - _WithLines: 0.8
     m_Colors:

@@ -13,6 +13,8 @@ Shader "Custom/WhiteOrBlack"
         _WithLines("With Lines", Range(0,1)) = 0
         _LineSize ("Line Size", float) = 10
         _ScreenTex ("Screen Texture", 2D) = "white" { }
+
+        _OutlineSize("Outline Size", Range(0,1)) = 1
     }
     SubShader
     {
@@ -27,6 +29,7 @@ Shader "Custom/WhiteOrBlack"
         float _Threshold;
         float _LineSize;
         float _WithLines;
+        float _OutlineSize;
         sampler2D _Tex2;
         float4 _Tex2_ST;
         sampler2D _ScreenTex;
@@ -93,6 +96,8 @@ Shader "Custom/WhiteOrBlack"
                 #pragma vertex vert
                 #pragma fragment frag
                 #include "UnityCG.cginc"
+
+float _OutlineSize;
  
                 struct v2f {
                     float4 pos: POSITION;
@@ -102,7 +107,7 @@ Shader "Custom/WhiteOrBlack"
                 v2f vert (appdata_full v)
                 {
                     v2f o;
-                    v.vertex.xyz += v.normal / 15.;
+                    v.vertex.xyz += (v.normal * _OutlineSize) / 15.;
                     o.pos = UnityObjectToClipPos(v.vertex);   
                     o.screenPos = ComputeScreenPos(o.pos);
                     return o;
@@ -111,7 +116,7 @@ Shader "Custom/WhiteOrBlack"
                 float4 frag( v2f i ) : COLOR
                 {
 
-                    return float4(0., 0., 0., 1.0);
+                    return float4(0., 0., 0., 1.0) * _OutlineSize;
                 }
             ENDCG          
         }
